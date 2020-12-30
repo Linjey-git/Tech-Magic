@@ -1,0 +1,136 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2020-10-28 15:25:48 EET
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException
+    at java.util.IdentityHashMap$IdentityHashMapIterator.nextIndex(IdentityHashMap.java:734)
+    at java.util.IdentityHashMap$KeyIterator.next(IdentityHashMap.java:825)
+    at aroma1997.tatw.ic2usesfe.block.ICSourceEventListener.tick(ICSourceEventListener.java:76)
+    at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_579_ICSourceEventListener_tick_WorldTickEvent.invoke(.dynamic)
+    at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+    at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+    at net.minecraftforge.fml.common.FMLCommonHandler.onPreWorldTick(FMLCommonHandler.java:287)
+    at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:752)
+    at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668)
+    at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:279)
+    at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+    at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 729415312 bytes (695 MB) / 4293918720 bytes (4095 MB) up to 10498867200 bytes (10012 MB)
+  JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx11G -Xms256m -XX:PermSize=256m
+  IntCache: cache: 0, tcache: 0, allocated: 16, tallocated: 121
+  FML: MCP 9.42 Powered by Forge 14.23.5.2854 Optifine OptiFine_1.12.2_HD_U_F5 63 mods loaded, 63 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                  | Version              | Source                                          | Signature                                |
+       |:------ |:------------------- |:-------------------- |:----------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft           | 1.12.2               | minecraft.jar                                   | None                                     |
+       | LCHIJA | mcp                 | 9.42                 | minecraft.jar                                   | None                                     |
+       | LCHIJA | FML                 | 8.0.99.99            | forge-1.12.2-14.23.5.2854.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | forge               | 14.23.5.2854         | forge-1.12.2-14.23.5.2854.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | betterfonts         | 1.9.1                | minecraft.jar                                   | None                                     |
+       | LCHIJA | foamfixcore         | 7.7.4                | minecraft.jar                                   | None                                     |
+       | LCHIJA | randompatches       | 1.12.2-1.22.1.7      | randompatches-1.12.2-1.22.1.7.jar               | None                                     |
+       | LCHIJA | actuallyadditions   | 1.12.2-r151          | ActuallyAdditions-1.12.2-r151-2.jar             | None                                     |
+       | LCHIJA | aiimprovements      | 0.0.1.3              | aiimprovements-1.12-0.0.1b3.jar                 | None                                     |
+       | LCHIJA | appliedenergistics2 | rv6-stable-7         | appliedenergistics2-rv6-stable-7.jar            | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+       | LCHIJA | aroma1997core       | 2.0.0.2.b167         | Aroma1997Core-1.12.2-2.0.0.2.b167.jar           | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+       | LCHIJA | aroma1997sdimension | 2.0.0.2              | Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+       | LCHIJA | baubles             | 1.5.2                | Baubles-1.12-1.5.2.jar                          | None                                     |
+       | LCHIJA | chunkanimator       | 1.2                  | ChunkAnimator-MC1.12-1.2.jar                    | None                                     |
+       | LCHIJA | classicbar          | @VERSION@            | classicbar-0.5.4.jar                            | None                                     |
+       | LCHIJA | clumps              | 3.1.2                | clumps-3.1.2.jar                                | None                                     |
+       | LCHIJA | crafttweaker        | 4.1.20               | CraftTweaker2-1.12-4.1.20.588.jar               | None                                     |
+       | LCHIJA | ctgui               | 1.0.0                | CraftTweaker2-1.12-4.1.20.588.jar               | None                                     |
+       | LCHIJA | mtlib               | 3.0.6                | MTLib-3.0.6.jar                                 | None                                     |
+       | LCHIJA | modtweaker          | 4.0.18               | modtweaker-4.0.18.jar                           | None                                     |
+       | LCHIJA | jei                 | 4.16.1.301           | jei_1.12.2-4.16.1.301.jar                       | None                                     |
+       | LCHIJA | crafttweakerjei     | 2.0.3                | CraftTweaker2-1.12-4.1.20.588.jar               | None                                     |
+       | LCHIJA | thaumcraft          | 6.1.BETA26           | Thaumcraft-1.12.2-6.1.BETA26.jar                | None                                     |
+       | LCHIJA | dungeonmobs         | 5.8.6                | dungeonmobs-5.8.6-MC1.12.2.jar                  | None                                     |
+       | LCHIJA | ic2                 | 2.8.220-ex112        | industrialcraft-2-2.8.220-ex112.jar             | de041f9f6187debbc77034a344134053277aa3b0 |
+       | LCHIJA | emt                 | 12.2.0               | emt-12.2.4.jar                                  | None                                     |
+       | LCHIJA | expandableinventory | 1.4.0                | ExpandableInventory-1.12.2-1.4.0.jar            | None                                     |
+       | LCHIJA | foamfix             | 0.10.10-1.12.2       | foamfix-0.10.10-1.12.2 (2).jar                  | None                                     |
+       | LCHIJA | forgeendertech      | 1.12.2-4.5.4.0       | ForgeEndertech-1.12.2-4.5.4.0-build.0534.jar    | None                                     |
+       | LCHIJA | forgelin            | 1.8.4                | Forgelin-1.8.4.jar                              | None                                     |
+       | LCHIJA | fpsreducer          | mc1.12.2-1.18        | FpsReducer-mc1.12.2-1.18.jar                    | None                                     |
+       | LCHIJA | hammercore          | 2.0.6.23             | HammerLib-1.12.2-2.0.6.23.jar                   | 9f5e2a811a8332a842b34f6967b7db0ac4f24856 |
+       | LCHIJA | improvableskills    | 65r                  | ImprovableSkills-1.12.2-65r.jar                 | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+       | LCHIJA | inventorytweaks     | 1.64+dev.151.822d839 | InventoryTweaks-1.64+dev.151.jar                | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+       | LCHIJA | ironchest           | 1.12.2-7.0.67.844    | ironchest-1.12.2-7.0.72.847.jar                 | None                                     |
+       | LCHIJA | jeresources         | 0.9.2.60             | JustEnoughResources-1.12.2-0.9.2.60.jar         | None                                     |
+       | LCHIJA | jeroreintegration   | 1.1.0                | JEROreIntegration-1.12.2-1.1.0.jar              | None                                     |
+       | LCHIJA | journeymap          | 1.12.2-5.7.1         | journeymap-1.12.2-5.7.1.jar                     | None                                     |
+       | LCHIJA | justenoughbuttons   | 1.12-1.2             | justenoughbuttons-1.12.2-1.2.3.jar              | None                                     |
+       | LCHIJA | shadowmc            | 3.8.0                | ShadowMC-1.12-3.8.0.jar                         | None                                     |
+       | LCHIJA | leveluphp           | 1.12.2-1.4.0         | leveluphp-1.12.2-1.4.0.jar                      | None                                     |
+       | LCHIJA | mtrm                | 1.2.2.30             | MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar      | None                                     |
+       | LCHIJA | mmdlib              | 1.0.0-rc2            | MMDLib-1.12-1.0.0-rc2.36.jar                    | None                                     |
+       | LCHIJA | mousetweaks         | 2.10                 | MouseTweaks-2.10-mc1.12.2.jar                   | None                                     |
+       | LCHIJA | netherite           | 1.1.0                | netherite-1.1.0.jar                             | None                                     |
+       | LCHIJA | recipehandler       | 0.13                 | NoMoreRecipeConflict-0.13(1.12.2).jar           | None                                     |
+       | LCHIJA | oreexcavation       | 1.4.150              | OreExcavation-1.4.150.jar                       | None                                     |
+       | LCHIJA | orespawn            | 3.3.1                | OreSpawn-1.12-3.3.1.179.jar                     | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | particleculling     | 1.0                  | particleculling-1.12.2-v1.0.1.jar               | None                                     |
+       | LCHIJA | solarflux           | 12.4.11              | SolarFluxReborn-1.12.2-12.4.11.jar              | 9f5e2a811a8332a842b34f6967b7db0ac4f24856 |
+       | LCHIJA | surge               | 2.0.79               | surge-1.12.2-2.0.79.jar                         | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | tatw                | 1.0.1.2              | Tatw-1.12.2-1.0.1.2.jar                         | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+       | LCHIJA | tc6aspects4jei      | 0.0.2a               | tc6aspects4jei-0.0.2a.jar                       | None                                     |
+       | LCHIJA | texfix              | 4.0                  | texfixv-1.12-4.0.jar                            | None                                     |
+       | LCHIJA | tcinventoryscan     | 2.0.10               | ThaumicInventoryScanning_1.12.2-2.0.10.jar      | None                                     |
+       | LCHIJA | thaumicjei          | 1.6.0                | ThaumicJEI-1.12.2-1.6.0-27.jar                  | None                                     |
+       | LCHIJA | theoneprobe         | 1.4.28               | theoneprobe-1.12-1.4.28 (2).jar                 | None                                     |
+       | LCHIJA | tombstone           | 4.0.0                | tombstone-4.0.0-1.12.2.jar                      | None                                     |
+       | LCHIJA | unloader            | 1.2.0                | unloader-1.2.0.jar                              | None                                     |
+       | LCHIJA | vanillafix          | 1.0.10-150           | vanillafix-1.0.10-150 (1).jar                   | None                                     |
+       | LCHIJA | jade                | 0.1.0                | Jade-0.1.0.jar                                  | None                                     |
+       | LCHIJA | phosphor-lighting   | 1.12.2-0.2.6         | phosphor-1.12.2-0.2.6build50-universal.jar      | f0387d288626cc2d937daa504e74af570c52a2f1 |
+       | LCHIJA | rtg                 | 6.1.0.0-snapshot.1   | RTG-1.12.2-6.1.0.0-snapshot.1.jar               | None                                     |
+  Loaded coremods (and transformers): Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.151.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      PhosphorFMLLoadingPlugin (phosphor-1.12.2-0.2.6build50-universal.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2 (2).jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      ForgelinPlugin (Forgelin-1.8.4.jar)
+                                        
+                                      BetterFontsCore (ttfr-1.12.1-1.9.1.jar)
+                                        cubex2.ttfr.BFClassTransformer
+                                      CorePlugin (ForgeEndertech-1.12.2-4.5.4.0-build.0534.jar)
+                                        
+                                      ParticleCullingLoadingPlugin (particleculling-1.12.2-v1.0.1.jar)
+                                        
+                                      RandomPatches (randompatches-1.12.2-1.22.1.7.jar)
+                                        com.therandomlabs.randompatches.core.RPTransformer
+                                      CoreMod (Aroma1997Core-1.12.2-2.0.0.2.b167.jar)
+                                        
+                                      HCASM (HammerLib-1.12.2-2.0.6.23.jar)
+                                        com.zeitheron.hammercore.asm.HammerCoreTransformer
+                                      VanillaFixLoadingPlugin (vanillafix-1.0.10-150 (1).jar)
+                                        
+                                      SurgeLoadingPlugin (surge-1.12.2-2.0.79.jar)
+                                        
+                                      LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
+                                        lumien.chunkanimator.asm.ClassTransformer
+  GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+  HammerCore Debug Information: Dependent Mods:
+                                -Improvable Skills (improvableskills) @ 65r
+  AE2 Integration: IC2:ON, RC:OFF, MFR:OFF, Waila:OFF, InvTweaks:ON, JEI:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:ON, TESLA:OFF, CRAFTTWEAKER:ON
+  Suspected Mods: TATW (tatw)
+  Profiler Position: N/A (disabled)
+  Player Count: 1 / 8; [EntityPlayerMP['Linjey'/69, l='Новый мир', x=-1534.81, y=88.00, z=282.30]]
+  Type: Integrated Server (map_client.txt)
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
