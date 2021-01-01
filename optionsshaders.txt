@@ -1,5 +1,5 @@
-#Wed Dec 16 21:54:47 EET 2020
-shaderPack=(internal)
+#Fri Jan 01 01:52:50 EET 2021
+shaderPack=BSL_v7.2.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

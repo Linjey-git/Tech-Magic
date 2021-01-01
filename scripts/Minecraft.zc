@@ -1,0 +1,8 @@
+import mods.thaumcraft.Crucible;
+import mods.thaumcraft.Infusion;
+
+mods.thaumcraft.Crucible.registerRecipe("Dragon Breath", "", <minecraft:dragon_breath>, <minecraft:experience_bottle>, [<aspect:draco>*5, <aspect:vitreus>*5]);
+
+mods.thaumcraft.Infusion.registerRecipe("Experience Bottle", "", <minecraft:experience_bottle>, 9, [<aspect:cognitio>, <aspect:ignis>], <thaumcraft:phial:0>, [<thaumcraft:brain>, <thaumcraft:brain>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})>]);
+
+recipes.addShapeless(<minecraft:flint>, [<ore:gravel>, <ore:gravel>, <ore:gravel>]);

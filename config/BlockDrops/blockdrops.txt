@@ -10943,50 +10943,5 @@
     "1pair473": "{\n  \"left\": 0,\n  \"right\": 1\n}",
     "2pair473": "{\n  \"left\": 0,\n  \"right\": 0\n}",
     "3pair473": "{\n  \"left\": 0,\n  \"right\": 0\n}"
-  },
-  {
-    "name": "betternether:block_eyeball_small",
-    "meta": 0,
-    "length": 1,
-    "name0": "minecraft:slime_ball",
-    "meta0": 0,
-    "0chance0": 98.525,
-    "1chance0": 98.725,
-    "2chance0": 99.925,
-    "3chance0": 100.100006,
-    "0pair0": "{\n  \"left\": 0,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 0,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 0,\n  \"right\": 2\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}"
-  },
-  {
-    "name": "betternether:block_eyeball",
-    "meta": 0,
-    "length": 1,
-    "name0": "minecraft:slime_ball",
-    "meta0": 0,
-    "0chance0": 250.0,
-    "1chance0": 253.6,
-    "2chance0": 250.92499,
-    "3chance0": 251.02501,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
-  },
-  {
-    "name": "betternether:cincinnasite_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "betternether:cincinnasite",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 132.575,
-    "2chance0": 173.0,
-    "3chance0": 222.725,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   }
 ]

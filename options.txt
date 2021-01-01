@@ -4,8 +4,8 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:13
-guiScale:2
+renderDistance:6
+guiScale:0
 particles:2
 bobView:false
 anaglyph3d:false
@@ -104,7 +104,6 @@ key_(GUI Menu) Add before:0
 key_(GUI Menu) Add after:0
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
-key_keys.quantumstorage.openbag:79
 key_key.torcherino.useage_key:42
 key_key.dismount:42
 key_key.narrator:48:CONTROL
@@ -159,7 +158,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:0.11589404
+soundCategory_master:1.0
 soundCategory_music:0.028169014
 soundCategory_record:1.0
 soundCategory_weather:1.0

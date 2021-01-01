@@ -643,131 +643,6 @@ minecraft:record_strad, Пластинка
 minecraft:record_ward, Пластинка
 minecraft:record_11, Пластинка
 minecraft:record_wait, Пластинка
-betternether:block_eyeball, Блок глаза
-betternether:block_eyeball_small, Маленький блок глаза
-betternether:eye_seed, Глазное семечко
-betternether:netherrack_moss, Мох нижнего мира
-betternether:nether_grass, Трава нижнего мира
-betternether:nether_reed, Тростник нижнего мира
-betternether:stalagnate_stem, Сталагнат
-betternether:stalagnate_seed, Семя сталагната
-betternether:stalagnate_bark, Кора сталагната
-betternether:stalagnate_planks, Сталагнатовые доски
-betternether:stalagnate_planks_stairs, Сталагнатовые ступени
-betternether:stalagnate_planks_slab_half:0, Сталагнатовая плита
-betternether:stalagnate_planks_fence, Сталагнатовый забор
-betternether:stalagnate_planks_gate, Сталагнатовые ворота
-betternether:stalagnate_planks_button, Сталагнатовая кнопка
-betternether:stalagnate_planks_plate, Сталагнатовая нажимная плита
-betternether:reeds_block, Тростниковый блок
-betternether:reeds_stairs, Тростниковые ступени
-betternether:reeds_slab_half:0, Тростниковая плита
-betternether:reeds_fence, Тростниковый забор
-betternether:reeds_gate, Тростниковые ворота
-betternether:reeds_button, Тростниковая кнопка
-betternether:reeds_plate, Тростниковая нажимная плита
-betternether:lucis_spore, Спора люциса
-betternether:nether_cactus, Кактус нижнего мира
-betternether:wart_seed, Семя нароста
-betternether:barrel_cactus, Бочковидный кактус
-betternether:agave, Агава
-betternether:black_bush, Чёрный куст
-betternether:ink_bush_seed, Семя чернильного куста
-betternether:smoker, Курильщик
-betternether:egg_plant, Яйцевидное растение
-betternether:black_apple_seed, Семя чёрного яблока
-betternether:magma_flower, Семя магмового цветка
-betternether:nether_mycelium, Мицелий нижнего мира
-betternether:orange_mushroom, Оранжевый гриб
-betternether:red_mold, Красная плесень
-betternether:gray_mold, Серая плесень
-betternether:cincinnasite_ore, Цинцинназитовая руда
-betternether:cincinnasite_block, Цинцинназитовый блок
-betternether:cincinnasite_forged, Сплавленный цинцинназитовый блок
-betternether:cincinnasite_pillar, Цинцинназитовая колонна
-betternether:cincinnasite_bricks, Цинцинназитовые кирпичи
-betternether:cincinnasite_brick_plate, Цинцинназитовая кирпичная плита
-betternether:cincinnasite_stairs, Цинцинназитовые ступени
-betternether:cincinnasite_slab_half:0, Цинцинназитовая плита
-betternether:cincinnasite_button, Цинцинназитовая кнопка
-betternether:cincinnasite_plate, Цинцинназитовая нажимная плита
-betternether:cincinnasite_lantern, Цинцинназитовый фонарь
-betternether:cincinnasite_tile_large, Большая цинцинназитовая плитка
-betternether:cincinnasite_tile_small, Маленькая цинцинназитовая плитка
-betternether:cincinnasite_carved, Резной цинцинназит
-betternether:nether_brick_tile_large, Большая плитка из кирпича нижнего мира
-betternether:nether_brick_tile_small, Маленькая плитка из кирпича нижнего мира
-betternether:cincinnasite_wall, Цинцинназитовая стена
-betternether:bone_block, Костный блок
-betternether:bone_stairs, Костяные ступени
-betternether:bone_slab_half:0, Костяная плита
-betternether:bone_button, Костяная кнопка
-betternether:bone_plate, Костяная нажимная плита
-betternether:cincinnasite_fire_bowl, Цинцинназитовая огненная чаша
-betternether:bone_wall, Костяная стена
-betternether:nether_brick_wall, Стена из кирпича нижнего мира
-betternether:nether_brick_tile_slab_half:0, Плита из маленькой плитки
-betternether:nether_brick_tile_stairs, Ступени из маленькой плитки
-betternether:bone_mushroom, Споры костяного гриба
-betternether:reeds_ladder, Тростниковая лестница
-betternether:cincinnasite_bricks_pillar, Колонна из цинцинназитового кирпича
-betternether:bone_tile, Костяная плитка
-betternether:cincinnasite_pedestal, Цинцинназитовый пьедестал
-betternether:pig_statue_01, Статуя возрождения
-betternether:cincinnasite_pot, Цинцинназитовый горшок
-betternether:cincinnasite_frame, Цинцинназитовая рамка
-betternether:quartz_glass, Кварцевое стекло
-betternether:quartz_glass_framed, Кварцевое стекло в рамке
-betternether:quartz_stained_glass:0, Белое кварцевое стекло
-betternether:quartz_stained_glass:1, Оранжевое кварцевое стекло
-betternether:quartz_stained_glass:2, Фиолетовое кварцевое стекло
-betternether:quartz_stained_glass:3, Голубое кварцевое стекло
-betternether:quartz_stained_glass:4, Жёлтое кварцевое стекло
-betternether:quartz_stained_glass:5, Лаймовое кварцевое стекло
-betternether:quartz_stained_glass:6, Розовое кварцевое стекло
-betternether:quartz_stained_glass:7, Серое кварцевое стекло
-betternether:quartz_stained_glass:8, Светло-серое кварцевое стекло
-betternether:quartz_stained_glass:9, Бирюзовое кварцевое стекло
-betternether:quartz_stained_glass:10, Пурпурное кварцевое стекло
-betternether:quartz_stained_glass:11, Синее кварцевое стекло
-betternether:quartz_stained_glass:12, Коричневое кварцевое стекло
-betternether:quartz_stained_glass:13, Зелёное кварцевое стекло
-betternether:quartz_stained_glass:14, Красное кварцевое стекло
-betternether:quartz_stained_glass:15, Чёрное кварцевое стекло
-betternether:cincinnasite_bars, Цинцинназитовая решётка
-betternether:quartz_glass_pane, Панель из кварцевого стекла
-betternether:quartz_glass_framed_pane, Панель из кварцевого стекла в рамке
-betternether:cincinnasite_forge, Цинцинназитовая печь
-betternether:netherrack_furnace, Печь из камня нижнего мира
-betternether:bone_reed_door, Костяно-тростниковая дверь
-betternether:bone_cincinnasite_door, Костяно-цинцинназитовая дверь
-betternether:quartz_stained_glass_framed:0, Белое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:1, Оранжевое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:2, Фиолетовое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:3, Голубое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:4, Жёлтое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:5, Лаймовое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:6, Розовое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:7, Серое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:8, Светло-серое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:9, Бирюзовое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:10, Пурпурное кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:11, Синее кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:12, Коричневое кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:13, Зелёное кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:14, Красное кварцевое стекло в рамке
-betternether:quartz_stained_glass_framed:15, Чёрное кварцевое стекло в рамке
-betternether:chest_of_drawers, tile.chest_of_drawers.name
-betternether:black_apple, Чёрное яблоко
-betternether:cincinnasite, Цинцинназит
-betternether:cincinnasite_pickaxe, Цинцинназитовая кирка
-betternether:cincinnasite_pickaxe_diamond, Цинцинназитово-алмазная кирка
-betternether:stalagnate_bowl, Сталагнатовая миска
-betternether:stalagnate_bowl_wart, Суп из наростов
-betternether:stalagnate_bowl_mushroom, Грибной суп
-betternether:stalagnate_bowl_apple, Чёрное яблоко
-betternether:cincinnasite_axe, Цинцинназитовый топор
-betternether:cincinnasite_axe_diamond, Цинцинназитово-алмазный топор
 ic2:te:1, Промышленный динамит
 ic2:te:2, Ядерная бомба
 ic2:te:3, Генератор
@@ -1427,20 +1302,6 @@ packagedexcrafting:ultimate_crafter, Ultimate Package Crafter
 packagedexcrafting:ender_crafter, Ender Package Crafter
 packagedexcrafting:combination_crafter, Combination Package Crafter
 packagedexcrafting:marked_pedestal, Marked Pedestal
-quantumstorage:quantum_tank, Квантовый бак
-quantumstorage:crater, Машина для измельчения
-quantumstorage:chest_iron, Усиленный железный сундук
-quantumstorage:chest_gold, Усиленный золотой сундук
-quantumstorage:chest_diamond, Усиленный алмазный сундук
-quantumstorage:quantum_storage_unit, Раздел квантового хранилища
-quantumstorage:quantumcrafter, Квантовый ремесленик
-quantumstorage:trashcan, Мусорное ведро
-quantumstorage:trashcanfluid, Мусорка для житкостей
-quantumstorage:chest_quantum, Quantum Storage Crate
-quantumstorage:multistorage:0, Storage Frame
-quantumstorage:multistorage:1, Heat Conductor
-quantumstorage:multistorage:2, Storage Unit
-quantumstorage:multistorage:3, Storage IO
 solarflux:solar_panel_1, Солнечная панель I
 solarflux:solar_panel_2, Солнечная панель II
 solarflux:solar_panel_3, Солнечная панель III
@@ -2116,27 +1977,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Коричневы
 appliedenergistics2:facade:0, Кабельный фасад - Зелёный цемент
 appliedenergistics2:facade:0, Кабельный фасад - Красный цемент
 appliedenergistics2:facade:0, Кабельный фасад - Чёрный цемент
-appliedenergistics2:facade:0, Кабельный фасад - Блок глаза
-appliedenergistics2:facade:0, Кабельный фасад - Мох нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Кора сталагната
-appliedenergistics2:facade:0, Кабельный фасад - Сталагнатовые доски
-appliedenergistics2:facade:0, Кабельный фасад - Тростниковый блок
-appliedenergistics2:facade:0, Кабельный фасад - Мицелий нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Цинцинназитовая руда
-appliedenergistics2:facade:0, Кабельный фасад - Цинцинназитовый блок
-appliedenergistics2:facade:0, Кабельный фасад - Сплавленный цинцинназитовый блок
-appliedenergistics2:facade:0, Кабельный фасад - Цинцинназитовая колонна
-appliedenergistics2:facade:0, Кабельный фасад - Цинцинназитовые кирпичи
-appliedenergistics2:facade:0, Кабельный фасад - Цинцинназитовая кирпичная плита
-appliedenergistics2:facade:0, Кабельный фасад - Цинцинназитовый фонарь
-appliedenergistics2:facade:0, Кабельный фасад - Большая цинцинназитовая плитка
-appliedenergistics2:facade:0, Кабельный фасад - Маленькая цинцинназитовая плитка
-appliedenergistics2:facade:0, Кабельный фасад - Резной цинцинназит
-appliedenergistics2:facade:0, Кабельный фасад - Большая плитка из кирпича нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Маленькая плитка из кирпича нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Костный блок
-appliedenergistics2:facade:0, Кабельный фасад - Колонна из цинцинназитового кирпича
-appliedenergistics2:facade:0, Кабельный фасад - Костяная плитка
 appliedenergistics2:facade:0, Кабельный фасад - Базальт
 appliedenergistics2:facade:0, Кабельный фасад - Медная руда
 appliedenergistics2:facade:0, Кабельный фасад - Свинцовая руда
@@ -2896,27 +2736,6 @@ extendedcrafting:singularity:64, Ardite Сингулярность
 extendedcrafting:singularity:65, Cobalt Сингулярность
 extendedcrafting:singularity:66, Manyullyn Сингулярность
 extendedcrafting:singularity_ultimate, Максимальная сингулярность
-floocraftft:floowerpot, Floower Pot
-floocraftft:flootorch, Floo Torch
-floocraftft:floopowder_one, Floo Powder
-floocraftft:floopowder_two, Floo Powder
-floocraftft:floopowder_four, Floo Powder
-floocraftft:floopowder_eight, Floo Powder
-floocraftft:floopowder_infinite, Floo Powder
-floocraftft:itemfloosign, Floo Sign
-goatmod:hay, Hay
-goatmod:goat_helmet, Goat Helmet
-goatmod:goat_chestplate, Goat Chestplate
-goatmod:goat_leggings, Goat Leggings
-goatmod:goat_boots, Goat Boots
-goatmod:goat_milk, Goat Milk
-goatmod:goat_fur, Goat Fur
-goatmod:goat_cheese, Goat Cheese
-goatmod:bloody_goat_fur, Bloody Goat Fur
-goatmod:ritual_knife, Ritual Knife
-goatmod:used_ritual_knife, Used Ritual Knife
-goatmod:ritual_orb, Ritual Orb
-goatmod:goat_sword, Goat Sword
 jecalculation:item_calculator:0, Калькулятор создания
 jecalculation:item_calculator:1, Математический калькулятор
 lostpowers:obsidian_ingot_0, Obsidian Ingot
@@ -2955,23 +2774,7 @@ lostpowers:ender_boots, Ender Boots
 mapfrontiers:frontier_book, Карта Территорий
 mapfrontiers:personal_frontier_book, Карта Персональных Территорий
 naturescompass:naturescompass, Компас природы
-quantumstorage:crate, Клеть
-quantumstorage:upgrade:0, Апгрейд рендеринга
-quantumstorage:upgrade:1, Апгрейд пустоты
-quantumstorage:upgrade:2, Апгрейд креатива
-quantumstorage:upgrade:3, Бесконечный апгрейд воды
-quantumstorage:quantum_battery, Quantum Battery
-quantumstorage:quantum_bag, item.quantumstorage.quantum_bag.name
-quantumstorage:remote, Inventory Remote
-supersticksword:supersticksword, Stick Sword
-supersticksword:stick_compressed, Compressed Stick
-supersticksword:stick_double, Double Compressed Stick
-supersticksword:stick_triple, Triple Compressed Stick
-supersticksword:stick_quadruple, Quadruple Compressed Stick
-supersticksword:stick_quintuple, Quintuple Compressed Stick
-supersticksword:stick_sextuple, Sextuple Compressed Stick
-supersticksword:stick_septuple, Septuple Compressed Stick
-supersticksword:stick_octuple, Octuple Compressed Stick
+thaumicenergistics:infusion_provider, Поставщик наполнения эссенции
 thaumicenergistics:essentia_cell_1k, МЭ 1k Ячейка хранения эссенции
 thaumicenergistics:essentia_cell_4k, МЭ 4k Ячейка хранения эссенции
 thaumicenergistics:essentia_cell_16k, МЭ 16k Ячейка хранения эссенции
@@ -2990,7 +2793,6 @@ thaumicenergistics:essentia_component_16k, МЭ 16k компонент хран�
 thaumicenergistics:essentia_component_64k, МЭ 64k компонент хранения эссенции
 thaumicenergistics:upgrade_arcane, Улучшение для Мистического Заряжателя
 thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
-thaumicenergistics:infusion_provider, Поставщик наполнения эссенции
 tombstone:decorative_grave_simple:0, Простая могила
 tombstone:decorative_grave_simple:1, Простая могила
 tombstone:decorative_grave_normal:0, Обычная могила
@@ -3508,6 +3310,7 @@ aroma1997sdimension:miningmultitool, Многорезцовый шахтёр
 aroma1997sdimension:dimensionchanger, Переключатель измерении
 aroma1997sdimension:miningore:0, Липкая руда
 aroma1997sdimension:miningore:1, Глиняная руда
+base:wrench, Wrench
 compressed_ores:compressedgoldore, Rich Gold Ore
 compressed_ores:compressedironore, Rich Iron Ore
 compressed_ores:compressedcoalore, Rich Coal Ore
